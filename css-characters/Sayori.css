@@ -3,7 +3,7 @@ html{
     
 }
 body{
-    background-image: url(img/tilebg.png);
+    background-image: url(/img/tilebg.png);
     min-height: 100%;
     font-family: 'Lato', system-ui;
     margin: 0px;
@@ -25,10 +25,11 @@ body{
 
 .img-container{
     height: 512px;
-    background-size: auto;
-    background-image: url(img/promo.png);
+   
+    background-image: url(/img/promo-Sayori.png);
     background-repeat: no-repeat;
     background-position: top;
+   background-size: cover;
 }
     
    
@@ -88,9 +89,7 @@ footer{
 
     .img-container{
         height: 384px;
-        background-size: 483px;
-        
-        background-image: url(img/promo.png);
+        background-image: url(/img/promo-Sayori.png);
         background-repeat: no-repeat;
     }
     .conteudo{
@@ -104,9 +103,7 @@ footer{
 
     .img-container{
         height: 256px;
-        background-size: 355px;
-        
-        background-image: url(img/promo.png);
+        background-image: url(/img/promo-Sayori.png);
         background-repeat: no-repeat;
     }
     .conteudo{
@@ -114,7 +111,3 @@ footer{
     }
 
 }
-
-
-
-

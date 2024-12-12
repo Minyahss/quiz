@@ -46,7 +46,7 @@ function somarValoresVetor(vetor) {
 }
 
 function resul(retorno) {
-    let resultado = `Op1 = ${retorno[0]*100/10}%<br>Op2 = ${retorno[1]*100/10}%<br>Op3 = ${retorno[2]*100/10}%<br>Op4 = ${retorno[3]*100/10}%`;
+    let resultado = `Sayori = ${retorno[0]*100/10}%<br>Yuri = ${retorno[1]*100/10}%<br>Natsuki = ${retorno[2]*100/10}%<br>Monika = ${retorno[3]*100/10}%`;
     document.getElementById("resultado").innerHTML=resultado;
 }
 
