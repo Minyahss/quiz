@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-html{
-    
-}
+
 body{
     background-image: url(/img/tilebg.png);
     min-height: 100%;
@@ -39,33 +37,6 @@ body{
    
 .conteudo-quiz{
     background-color: white;
-}
-
-button{
-    margin-bottom: 40px;
-    width: 256px;
-    height: 64px;
-    background-color:  #fed7eb;
-    border-color: #f393bc;
-    border-style: solid;
-    font-family: 'Lato';
-    font-size: larger;
-    font-weight: 600;
-    transition: background-color 0.2s ease;
-}
-
-button:hover{
-
-    margin-bottom: 40px;
-    width: 256px;
-    height: 64px;
-    background-color:  white;
-    color: #f393bc;
-    border-color: #fed7eb;
-    border-style: solid;
-    font-family: 'Lato';
-    font-size: larger;
-    font-weight: 600;
 }
 
 .sticker:hover{

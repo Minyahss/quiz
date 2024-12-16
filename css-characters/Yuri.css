@@ -31,7 +31,12 @@ body{
     background-position: top;
    background-size: cover;
 }
-    
+   
+p{
+    margin-left: 128px;
+    margin-right: 128px;
+    text-align: center;
+   } 
    
 .conteudo-quiz{
     background-color: white;
@@ -89,7 +94,7 @@ footer{
 
     .img-container{
         height: 384px;
-        background-image: url(/img/promo-Sayori.png);
+        background-image: url(/img/promo-Yuri.png);
         background-repeat: no-repeat;
     }
     .conteudo{
@@ -103,7 +108,7 @@ footer{
 
     .img-container{
         height: 256px;
-        background-image: url(/img/promo-Sayori.png);
+        background-image: url(/img/promo-Yuri.png);
         background-repeat: no-repeat;
     }
     .conteudo{

@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Document</title>
+    <title>Yuri!</title>
+    <link rel="stylesheet" href="css-characters/Yuri.css">
 </head>
 <body>
-    <h1>Seu resultado é: Op2</h1>
-    <h1 id="votos"></h1>
+    <div class="conteudo">
+        <div class="divisa"></div>
+
+
+        <div class="img-container">
+            
+        </div>
+
+        
+        <div class="divisa"></div>
+        <h1>Parabéns, você tirou a Yuri!</h1>
+
+        <p>
+           
+            A Yuri é uma pesoa incrivelmente única. <br>
+            Ela tem uma mente profunda e analítica, sempre explorando o significado mais complexo das coisas,
+            algo que ela reflete muito em seus poemas, cheios de metáforas profundas que permite que o leitor tenha
+            própria interpretação. 
+            Sua paixão por literatura é de se admirar, e ela tem um talento especial para 
+            encontrar significado até nos pequenos detalhes que muitos deixam passar. <br> 
+            Mas também Yuri é muito reservada, e as vezes suas inseguranças podem a tornar um pouco hesitante. 
+            Ela é o tipo de pessoa que floresce quando encontra alguém com quem compartilhar sua paixão por literatura. <br><br>
+            Se você tirou ela, muito provavelmente você tambem seja introspectivo e possua uma paixão 
+            inimaginável por literatura assim como a Yuri.
+        </p>
+        
+    
+        <h1 id="votos"></h1>
+        <br>
+
+        <p>Clique no seu <i>Chibi</i> para ver uma versão alternativa!</p>
+        <br> <br>
+
+        <img src="img/sticker_y.png" alt="" class="sticker" onclick="boop(this)">
+
+        <p>Clique para ouvir sua musica tema!</p>
+        <audio controls>
+            <source src="sound/2-04. Okay, Everyone! (Yuri).mp3" type="audio/mp3">
+          </audio>
+          <br> <br>
+    </div>
     <script>
         let contOp2 = localStorage.getItem('op2')
         document.querySelector('#votos').innerHTML = 'Votos: '+contOp2*100/10 + "%"
+
+        function boop(cute) {
+           cute.src="img/sticker_y-Feliz.png"
+        }
     </script>
 </body>
 </html>
