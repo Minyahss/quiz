@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Document</title>
+    <title>Sayori!</title>
     <link rel="stylesheet" href="css-characters/Sayori.css">
 </head>
 <body>
@@ -15,15 +15,39 @@
 
         
         <div class="divisa"></div>
-        <h1>Seu resultado é: Sayori</h1>
+        <h1>Parabéns, você tirou a Sayori!</h1>
 
+        <p>
+           
+            A Sayori é uma das pessoas mais doces e sinceras que você poderia conhecer. <br>
+            De personalidade alegre e até mesmo um pouco desajeitada, Sayori se prova ser a melhor 
+            vice-presidente do Clube, ela tem uma habilidade incrivel de iluminar qualquer ambiente com seu sorriso radiante, 
+            até mesmo nos piores momentos. <br> Ela valoriza tanto suas amizades que sempre coloca os outros antes de si mesma, 
+            o que é uma qualidade de se admirar,
+            mas... também me preocupa um pouco. Digo, ela é tão boa em fazer amigos e espalhar felicidade que as vezes esquece 
+            de cuidar de si. Se você tirou ela, talvez você também seja uma pessoa Fantástica que se preocupa
+            profundamente com as pessoas ao seu redor. <br><br>
+            Só não esqueça de cuidar de si mesma também, ok?
+        </p>
         
     
         <h1 id="votos"></h1>
+        <br> <br>
+
+        <img src="img/sticker_s.png" alt="" class="sticker" onclick="boop(this)">
+
+        <p>Clique para ouvir sua musica tema!</p>
+        <audio controls>
+            <source src="sound/2-02. Okay, Everyone! (Sayori).mp3" type="audio/mp3">
+          </audio>
     </div>
     <script>
         let contOp1 = localStorage.getItem('op1')
         document.querySelector('#votos').innerHTML = 'Votos: '+contOp1*100/10 + "%"
+
+        function boop(cute) {
+           cute.src="img/sticker-s-Feliz.png"
+        }
     </script>
 </body>
 </html>

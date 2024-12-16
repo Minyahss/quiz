@@ -31,7 +31,11 @@ body{
     background-position: top;
    background-size: cover;
 }
-    
+   p{
+    margin-left: 128px;
+    margin-right: 128px;
+    text-align: center;
+   } 
    
 .conteudo-quiz{
     background-color: white;
@@ -64,16 +68,6 @@ button:hover{
     font-weight: 600;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-.sticker{
-    
-}
-
 .sticker:hover{
     animation: pular 0.3s ease-in-out;
 }
@@ -83,6 +77,10 @@ footer{
     50% { transform: translateY(-50px); } 
     100% { transform: translateY(0); } 
 }
+
+
+
+
 
 @media(width <= 1024px){
 
