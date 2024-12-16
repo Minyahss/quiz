@@ -81,7 +81,7 @@ function maior(retorno) {
 
 function mostrarPagina(pag) {
     setTimeout(() => {
-        window.open('https://minyahss.github.io/quiz/'+ pag + '.html')
+        window.open('https://minyahss.github.io/quiz/outrasPaginas/'+ pag + '.html')
     }, 5000)
 }
 
