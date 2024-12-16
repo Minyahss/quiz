@@ -3,7 +3,7 @@ html{
     
 }
 body{
-    background-image: url(/img/tilebg.png);
+    background-image: url(../img/tilebg.png);
     min-height: 100%;
     font-family: 'Lato', system-ui;
     margin: 0px;
@@ -26,7 +26,7 @@ body{
 .img-container{
     height: 512px;
    
-    background-image: url(/img/promo-Yuri.png);
+    background-image: url(../img/promo-Yuri.png);
     background-repeat: no-repeat;
     background-position: top;
    background-size: cover;
@@ -94,7 +94,7 @@ footer{
 
     .img-container{
         height: 384px;
-        background-image: url(/img/promo-Yuri.png);
+        background-image: url(../img/promo-Yuri.png);
         background-repeat: no-repeat;
     }
     .conteudo{
