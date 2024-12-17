@@ -24,7 +24,7 @@ body{
 .img-container{
     height: 512px;
    
-    background-image: url(../img/promo-Sayori.png);
+    background-image: url(../img/promo-Natsuki.png);
     background-repeat: no-repeat;
     background-position: top;
    background-size: cover;
@@ -58,7 +58,7 @@ body{
 
     .img-container{
         height: 384px;
-        background-image: url(../img/promo-Sayori.png);
+        background-image: url(../img/promo-Natsuki.png);
         background-repeat: no-repeat;
     }
     .conteudo{
@@ -72,7 +72,7 @@ body{
 
     .img-container{
         height: 256px;
-        background-image: url(../img/promo-Sayori.png);
+        background-image: url(../img/promo-Natsuki.png);
         background-repeat: no-repeat;
     }
     .conteudo{

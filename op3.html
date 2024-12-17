@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Document</title>
+    <title>Natsuki!!</title>
     <link rel="stylesheet" href="css-characters/Natsuki.css">
 </head>
 <body>
@@ -15,19 +15,22 @@
 
         
         <div class="divisa"></div>
-        <h1>Parabéns, você tirou a Sayori!</h1>
+        <h1>Parabéns, você tirou a Natsuki!</h1>
 
         <p>
-           
-            A Sayori é uma das pessoas mais doces e sinceras que você poderia conhecer. <br>
-            De personalidade alegre e até mesmo um pouco desajeitada, Sayori se prova ser a melhor 
-            vice-presidente do Clube, ela tem uma habilidade incrivel de iluminar qualquer ambiente com seu sorriso radiante, 
-            até mesmo nos piores momentos. <br> Ela valoriza tanto suas amizades que sempre coloca os outros antes de si mesma, 
-            o que é uma qualidade de se admirar,
-            mas... também me preocupa um pouco. Digo, ela é tão boa em fazer amigos e espalhar felicidade que as vezes esquece 
-            de cuidar de si. Se você tirou ela, talvez você também seja uma pessoa Fantástica que se preocupa
-            profundamente com as pessoas ao seu redor. <br><br>
-            Só não esqueça de cuidar de si mesma também, ok?
+           A Natsuki é a pessoa qu, a primeira vista pode parecer um pouco durona e rude, mas por tras dessa personalidade forte
+           esconde uma das pessoas mais doces do mundo. Ela tem uma coração enorme, mesmo que pra elea seja um pouco 
+           dificil de demonstrar isso... <br>
+
+           Seus hobbies, como cozinhar e escrever suas poesias diretas e profundas são apenas um reflexo de quem ela é:
+           uma pessoa fofa e cheia de sentimentos, que prefere esconder atras de sua fachada de "durona". Ela valoriza e muito
+           as pessoas que ama. <br> <br>
+
+           Se você se identificou com ela, talvez você tambem seja um pouco mais duro por fora, mas esconde
+           uma sensibilidade e um carinho pelas coisas que ama de se surpreender. Não há problema em abaixar 
+           a guarda de vez em quando, sabe?
+
+
         </p>
         
     
@@ -36,16 +39,21 @@
         <p>Clique no seu <i>Chibi</i> para ver uma versão alternativa!!</p>
         <br> <br>
 
-        <img src="img/sticker_s.png" alt="" class="sticker" onclick="boop(this)">
+        <img src="img/sticker_n.png" alt="" class="sticker" onclick="boop(this)">
 
         <p>Clique para ouvir sua musica tema!</p>
         <audio controls>
-            <source src="sound/2-02. Okay, Everyone! (Sayori).mp3" type="audio/mp3">
+            <source src="sound/2-03. Okay, Everyone! (Natsuki).mp3" type="audio/mp3">
           </audio>
     </div>
     <script>
         let contOp3 = localStorage.getItem('op3')
         document.querySelector('#votos').innerHTML = 'Votos: '+contOp3*100/10 + "%"
+
+
+        function boop(cute) {
+           cute.src="img/sticker-n-Feliz.png"
+        }
     </script>
 </body>
 </html>
