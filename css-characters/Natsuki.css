@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background-image: url(../img/tilebg.png);
+    min-height: 100%;
+    font-family: 'Lato', system-ui;
+    margin: 0px;
+    background-attachment: fixed;
+}
+.divisa{
+    height: 40px;
+    background-color: #ffbde1;
+}
+.conteudo{
+    width: 70vw;
+    height: inherit;
+    background-color: white;
+    text-align: center;
+    margin: 0px auto;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+    
+}
+
+.img-container{
+    height: 512px;
+   
+    background-image: url(../img/promo-Sayori.png);
+    background-repeat: no-repeat;
+    background-position: top;
+   background-size: cover;
+}
+   p{
+    margin-left: 128px;
+    margin-right: 128px;
+    text-align: center;
+   } 
+   
+.conteudo-quiz{
+    background-color: white;
+}
+
+.sticker:hover{
+    animation: pular 0.3s ease-in-out;
+}
+
+@keyframes pular {
+    0% { transform: translateY(0); } 
+    50% { transform: translateY(-50px); } 
+    100% { transform: translateY(0); } 
+}
+
+
+
+
+
+@media(width <= 1024px){
+
+
+    .img-container{
+        height: 384px;
+        background-image: url(../img/promo-Sayori.png);
+        background-repeat: no-repeat;
+    }
+    .conteudo{
+        font-size: small;
+    }
+
+}
+
+@media(width <= 720px){
+
+
+    .img-container{
+        height: 256px;
+        background-image: url(../img/promo-Sayori.png);
+        background-repeat: no-repeat;
+    }
+    .conteudo{
+        font-size: x-small;
+    }
+
+}
