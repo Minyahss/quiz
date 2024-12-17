@@ -115,6 +115,22 @@ footer{
 
 }
 
+#surprise {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: x-large;
+    transition: opacity 1s ease;
+  }
+
 
 
 

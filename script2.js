@@ -1,3 +1,13 @@
+function ad() {
+    setTimeout(() => {
+        const surprise = document.getElementById('surprise');
+        surprise.style.opacity = '0'; 
+        setTimeout(() => {
+          surprise.style.display = 'none';
+        }, 1000);
+      }, 3000);
+  }
+
 function contagem() {
     let cont = [0, 0, 0, 0]
 
