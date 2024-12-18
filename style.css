@@ -34,6 +34,8 @@ body{
    
 .conteudo-quiz{
     background-color: white;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 button{
@@ -84,7 +86,9 @@ footer{
 }
 
 @media(width <= 1024px){
-
+    .conteudo{
+        width: 80vw;
+    }
 
     .img-container{
         height: 384px;
@@ -93,14 +97,14 @@ footer{
         background-image: url(img/promo.png);
         background-repeat: no-repeat;
     }
-    .conteudo{
-        font-size: small;
-    }
-
 }
 
 @media(width <= 720px){
 
+    .conteudo{
+        width: 90vw;
+        font-size: small;
+    }
 
     .img-container{
         height: 256px;
@@ -108,9 +112,6 @@ footer{
         
         background-image: url(img/promo.png);
         background-repeat: no-repeat;
-    }
-    .conteudo{
-        font-size: x-small;
     }
 
 }
