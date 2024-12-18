@@ -55,7 +55,9 @@ body{
 
 @media(width <= 1024px){
 
-
+    .conteudo{
+        width: 80vw;
+    }
     .img-container{
         height: 384px;
         background-image: url(../img/promo-Natsuki.jpg);
