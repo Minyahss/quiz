@@ -69,14 +69,14 @@ body{
 
 @media(width <= 720px){
 
-
+    .conteudo{
+        width: 90vw;
+        font-size: small;
+    }
     .img-container{
         height: 256px;
         background-image: url(../img/promo-Sayori.png);
         background-repeat: no-repeat;
-    }
-    .conteudo{
-        font-size: x-small;
     }
 
 }
